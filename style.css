@@ -1,0 +1,55 @@
+#btn1 {
+
+    height: 20px;
+    width: 140px;
+    font-size: 24px;
+    margin: 20px auto;
+    cursor: pointer;
+    background :#1594e5;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+#para{
+    width: 400px;
+    max-height: 122px;
+    overflow: hidden;
+    background: #fff;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#para.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#tri{
+    background: blue;
+    height: 100px;
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    
+
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    transition: background 1s;
+}
+
+.menu{
+    list-style: none;
+    background-color: green; 
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    height: 50px;
+}
